@@ -15,7 +15,7 @@ jobs:
           ls -la
           find . -maxdepth 4 -type f | sort
 
-            - name: Upload repository files
+                  - name: Upload repository files
         uses: actions/upload-artifact@v4
         with:
           name: PhanHoaiRedline-source
